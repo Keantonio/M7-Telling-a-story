@@ -65,12 +65,14 @@ anchors_preset = -1
 anchor_left = 0.43600002
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 54.879944
-offset_top = 470.0
-offset_right = 68.971924
-offset_bottom = 1238.0
+offset_left = 72.879944
+offset_top = 516.0
+offset_right = -256.0
+offset_bottom = -433.0
 text = "Hello World!"
 fit_content = true
+visible_characters = 4
+visible_ratio = 0.352
 
 [node name="NextButton" type="Button" parent="."]
 unique_name_in_owner = true

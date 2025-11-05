@@ -1,6 +1,9 @@
+Button
+HBoxContainer
+VBoxContainer
+Container
 AudioStreamPlayer
 AudioStreamPlayer2D
-Button
 RichTextLabel
 TextureRect
 ColorRect
