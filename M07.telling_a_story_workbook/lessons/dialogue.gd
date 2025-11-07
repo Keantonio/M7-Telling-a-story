@@ -97,6 +97,13 @@ func show_text() -> void:
 	# We animate the character sliding in.
 	slide_in()
 
+	# Finally, we disable the next button until the text finishes displaying.
+	next_button.disabled = true
+	tween.finished.connect(func() -> void:
+		next_button.disabled = false
+	)
+
+
 ## Advances the dialogue to the next item or quits the game if there are no more
 ## items.
 func advance() -> void:
@@ -115,3 +122,4 @@ func slide_in() -> void:
 	slide_tween.tween_property(body, "position:x", 0, 0.3)
 	body.modulate.a = 0
 	slide_tween.parallel().tween_property(body, "modulate:a", 1, 0.2)
+	
