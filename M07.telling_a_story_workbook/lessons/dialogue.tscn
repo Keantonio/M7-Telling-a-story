@@ -26,6 +26,7 @@ theme = ExtResource("1_5dtme")
 script = ExtResource("2_6cfwb")
 
 [node name="Background" type="ColorRect" parent="."]
+unique_name_in_owner = true
 material = SubResource("ShaderMaterial_6cfwb")
 layout_mode = 1
 anchors_preset = 15
@@ -48,6 +49,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="Expression" type="TextureRect" parent="Body"]
+unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
